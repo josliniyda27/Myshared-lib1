@@ -1,3 +1,3 @@
-def call(String name, String day){
-  echo "hello ${name} will meet on ${day}"
+def call(Map info = [:]){
+  echo "hello ${info.name} will meet on ${info.day}"
 }
